@@ -7,3 +7,8 @@ body{
 	position: relative;
 
 }
+
+main{
+	background: url('../images/main-bg.jpg');
+	min-height: 100%;
+}
