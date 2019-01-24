@@ -12,3 +12,35 @@ main{
 	background: url('../images/main-bg.jpg');
 	min-height: 100%;
 }
+
+header{
+	position: relative;
+	width: 950px;
+	margin: 0px auto;
+	padding: 80px 0 0 0;
+	background: url('../images/slide-1.jpg') no-repeat center 80px;
+	z-index: 2;
+}
+
+.inner{
+	background: url('../images/header-bg.png');
+	padding: 26px 40px 25px 40px;
+	position: relative;
+	z-index: 2;
+
+}
+
+.logo{
+	display: inline-block;
+	padding: 0;
+}
+
+.logo a{
+	position: relative;
+	background: url('../images/logo.png') no-repeat 0 0;
+	height: 60px;
+	width: 187px;
+	display: block;
+	overflow: hidden;
+	text-indent: -99em;
+}
