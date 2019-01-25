@@ -44,3 +44,42 @@ header{
 	overflow: hidden;
 	text-indent: -99em;
 }
+
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav{
+	float: right;
+}
+
+.menu ul{
+	position: absolute;
+	right: -999em;
+	left: 0;
+	display: none;
+	width: 185px;
+	min-height: 28px;
+
+}
+
+.menu li{
+	position: relative;
+	float: left;
+	margin: 0 28px;
+
+}
+
+.menu li a{
+	text-decoration: none;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 18px;
+	text-transform: uppercase;
+	color: white;
+	padding: 10px 0 0 0;
+
+}
