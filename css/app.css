@@ -102,7 +102,22 @@ mp-slider{
 	left: 0;
 	right: 0;
 	bottom: 511px;
-	z-index: 3;
+}
 
+.mp-prev, .mp-next{
+	position: absolute;
+	width: 31px;
+	height: 402px;
+	bottom: 0;
+	z-index: 3;
+}
+
+.mp-prev{
+	left: 0;
+	background: url('../images/slider-prev.png') no-repeat 0 0;
+}
+.mp-next{
+	right: 0;
+	background: url('../images/slider-next.png') no-repeat 0 0;
 }
 
