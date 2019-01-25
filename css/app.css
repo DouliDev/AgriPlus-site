@@ -121,3 +121,17 @@ mp-slider{
 	background: url('../images/slider-next.png') no-repeat 0 0;
 }
 
+.mp-prev:hover{
+	background: url('../images/slider-prev.png') no-repeat right 0;
+}
+
+.mp-next:hover{
+	background: url('../images/slider-next.png') no-repeat right 0;
+}
+
+
+
+
+
+
+
