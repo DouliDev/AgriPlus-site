@@ -89,3 +89,19 @@ nav{
 	text-decoration: underline;
 	color: #ff8b00;
 }
+
+.slider{
+	position: relative;
+	z-index: 1;
+	height: 402px;
+}
+
+mp-slider{
+	position: absolute;
+	top: -109px;
+	left: 0;
+	right: 0;
+	bottom: 511px;
+
+}
+
