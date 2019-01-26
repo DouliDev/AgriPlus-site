@@ -5,11 +5,32 @@
 	padding: 0;
 }
 
-.container .adjust-1{
+.container .row:before, .row:after{
+
+	content: " ";
+	display: block;
+	overflow: hidden;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+
+.row:after{
+	clear: both;
+}
+wrap-col{
+	margin: 10px;
+}
+
+.container .adjust-1, .container .adjust-1{
 	float: left;
 	display: inline-block;
 
 }
 .container .adjust-1{
 	width: 75%;
+}
+
+.container .adjust-1{
+	width: 25%;
 }

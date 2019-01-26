@@ -136,6 +136,79 @@ mp-slider{
 	padding: 35px 20px 43px 20px;
 }
 
+.def-list-1{
+	padding: 0 0 10px 0;
+}
+
+.def-list-1 dt{
+	display: block;
+	font-size: 12px;
+	line-height: 18px;
+	padding: 0 0 6px 0;
+	font-weight: bold;
+}
+
+.def-list-1 a{
+	color: #ff8b00;
+	text-decoration: none;
+
+}
+
+.def-list-1 a:hover{
+	text-decoration: underline;
+
+
+
+
+
+
+
+
+/************ headding ***********/
+
+h1,h2,h3,h4,h5,h6{
+	color: white;
+	padding: 0 0 9px 0;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-size: 40px;line-height: 48px;
+}
+h2{
+	font-size: 36px;line-height: 44px;
+}
+
+h3{
+	font-size: 32px;line-height: 40px;	
+}
+
+h4{
+	font-size: 28px;line-height: 34px;	
+}
+
+h5{
+	font-size: 24px;line-height: 30px;	
+}
+h6{
+	font-size: 20px;line-height: 26px;	
+}
+
+/************ indenting ***********/
+
+.img-indent-bot{
+	margin: 5px 0 16px 0;
+}
+
+
+
+
+
+
+
 
 
 
