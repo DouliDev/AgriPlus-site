@@ -152,6 +152,10 @@ dl,dt,dd{
 	padding: 0 0 6px 0;
 	font-weight: bold;
 }
+.def-list-1 dd{
+	width: 150px;
+}
+
 
 .def-list-1 a{
 	color: #ff8b00;
