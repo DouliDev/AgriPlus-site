@@ -22,7 +22,7 @@ wrap-col{
 	margin: 10px;
 }
 
-.container .adjust-1, .container .adjust-1{
+.container .adjust-1, .container .adjust-2{
 	float: left;
 	display: inline-block;
 
@@ -31,6 +31,6 @@ wrap-col{
 	width: 75%;
 }
 
-.container .adjust-1{
+.container .adjust-2{
 	width: 25%;
 }
