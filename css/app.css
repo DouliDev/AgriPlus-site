@@ -129,8 +129,12 @@ mp-slider{
 	background: url('../images/slider-next.png') no-repeat right 0;
 }
 
+/************content area***********/
 
-
+.content-bg{
+	background: url('../images/body-bg.gif');
+	padding: 35px 20px 43px 20px;
+}
 
 
 
