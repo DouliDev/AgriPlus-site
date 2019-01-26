@@ -166,8 +166,11 @@ dl,dt,dd{
 .def-list-1 a:hover{
 	text-decoration: underline;}
 
-
-
+/************ border ***********/
+.hr-border-1{
+	border-bottom: 1px solid #323232;
+	margin: 0 0 9px 0;
+}
 
 
 
