@@ -164,8 +164,32 @@ dl,dt,dd{
 }
 
 .def-list-1 a:hover{
-	text-decoration: underline;}
+	text-decoration: underline;
+}
 
+a{
+	color: white;
+	text-decoration: underline;
+
+}
+
+a:hover{
+	text-decoration: none;
+
+}
+
+.button{
+	display: inline-block;
+	font-size: 12px;
+	color: white;
+	text-decoration: underline;
+	background: url('../images/link-marker.gif') no-repeat right 7px;
+	padding: 0 11px 0 0;
+}
+
+.alignright{
+	text-align: right;
+}
 /************ border ***********/
 .hr-border-1{
 	border-bottom: 1px solid #323232;
@@ -213,6 +237,10 @@ h6{
 
 .img-indent-bot{
 	margin: 5px 0 16px 0;
+}
+
+.indent-bottom{
+	padding: 0 0 32px 0;
 }
 
 
