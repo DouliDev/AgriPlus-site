@@ -131,7 +131,7 @@ mp-slider{
 
 /************content area***********/
 
-dl,dt,dd{
+dl,dt,dd,blockquote{
 	margin: 0;
 	padding: 0;
 }
@@ -166,6 +166,92 @@ dl,dt,dd{
 .def-list-1 a:hover{
 	text-decoration: underline;
 }
+
+.banner-box{
+	position: relative;
+	background-color: #292929;
+	padding: 25px 135px 35px 40px;
+}
+.banner-box h3{
+	font-size: 34px;
+	line-height: 40px;
+	padding: 0;
+
+}
+.banner-box h4{
+	font-family: "open sans",sans-serif;
+	line-height: 26px;
+	padding: 0 0 18px 0;
+	letter-spacing: -1px;
+	font-weight: 300px;
+	margin: 5px 0 0 0;
+	font-size: 21px;
+	text-transform: uppercase;
+
+}
+
+.inside{
+	position: relative;
+	z-index: 2;
+}
+.quote{
+	font-size: 12px;
+	line-height: 20px;
+	font-style: italic;
+	position: relative;
+	padding: 0 0 15px 0;
+}
+
+.quote strong{
+	color: white;
+	font-weight: normal;
+
+}
+
+.quote:before{
+	display: inline-block;
+	background: url('../images/quote-before.png') no-repeat 0 0;
+	content: " ";
+	width: 14px;
+	height: 13px;
+	margin: 0 5px 0 0;
+
+}
+
+.quote:after{
+	display: inline-block;
+	background: url('../images/quote-after.png') no-repeat 0 0;
+	content: " ";
+	width: 14px;
+	height: 13px;
+	margin: 0 0 0  6px;
+	
+}
+
+.author{
+	display: inline-block;
+	font-family: "ubuntu",sans-serif;
+	color: white;
+	font-size: 14px;
+	line-height: 20px;
+	font-weight: bold;
+	margin: 0 5px 0 0;
+
+}
+
+.author i{
+	font-weight: normal;
+}
+
+.banner-img{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
+
+
+
+
 
 a{
 	color: white;
@@ -241,6 +327,10 @@ h6{
 
 .indent-bottom{
 	padding: 0 0 32px 0;
+}
+
+.indent-right{
+	margin-right: 90px;
 }
 
 
