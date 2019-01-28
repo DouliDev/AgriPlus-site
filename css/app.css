@@ -171,6 +171,7 @@ dl,dt,dd,blockquote{
 	position: relative;
 	background-color: #292929;
 	padding: 25px 135px 35px 40px;
+	margin-right: 5px;
 }
 .banner-box h3{
 	font-size: 34px;
@@ -349,6 +350,20 @@ p {
 	padding-bottom: 6px !important;
 }
 
+.list-1{
+	margin-top: 12px;
+	padding: 0 0 20px 0;
+}
+.list-1 li{
+	display: block;
+	padding: 4px 0 4px 16px;
+	border-top: 1px solid #323232;
+	background: url('../images/list-1-marker.gif') no-repeat 0 5px; 
+}
+
+.list-1 li:first-child{
+	border: none;
+}
 
 
 
