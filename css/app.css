@@ -333,8 +333,21 @@ h6{
 	margin-right: 90px;
 }
 
+.indent-bottom{
+	padding: 0 0 60px 0;
+}
 
+.heading-1{
+	color: #ffcd60;
+}
 
+p {
+	padding-bottom: 18px !important;
+}
+
+.p1{
+	padding-bottom: 6px !important;
+}
 
 
 
