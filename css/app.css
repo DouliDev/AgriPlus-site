@@ -141,6 +141,31 @@ dl,dt,dd,blockquote{
 	padding: 35px 20px 43px 20px;
 }
 
+footer{
+	color: #717171;
+	font-size: 12px;
+}
+
+.footer-bg{
+	background: url('../images/body-bg.gif');
+	padding: 0 20px 30px 20px;
+}
+
+.copyright{
+	padding: 5px 0 0 0;
+}
+
+.footer-logo{
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 30px;
+	font-family: "ubuntu","verdana",sans-serif;
+	color: #717171;
+	margin: 7px 0 0 0;
+	display: inline-block;
+}
+
+
 .def-list-1{
 	padding: 0 0 10px 0;
 }
@@ -371,6 +396,11 @@ p {
 
 .list-1 li:first-child{
 	border: none;
+}
+
+.wrapper{
+	overflow: hidden;
+	position: relative;
 }
 
 
