@@ -172,6 +172,32 @@ footer-list li{
 	background: url('../images/list-1-marker.gif') no-repeat 0 6px;
 }
 
+.footer-list li a{
+	color: #717171;
+	text-decoration: none;
+
+}
+
+.footer-list li a{
+	color: #717171;
+	text-decoration: none;
+	
+
+}
+.footer-list li a{
+	color: #717171;
+	text-decoration: none;
+	
+
+}
+.footer-list li a:hover{
+	color: white;
+	text-decoration: underline;
+	
+
+}
+
+
 
 .def-list-1{
 	padding: 0 0 10px 0;
