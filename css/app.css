@@ -193,11 +193,24 @@ footer-list li{
 .footer-list li a:hover{
 	color: white;
 	text-decoration: underline;
-	
+}
+
+.social-list li{
+	padding: 5px 0 0 0;
+	margin-bottom: 5px;
+	text-align: right;
 
 }
 
+.social-list li{
+	width: 27px;
+	height: 24px;
+	background: #585858;
 
+}
+.social-list li:hover{
+	background: #b30404
+}
 
 .def-list-1{
 	padding: 0 0 10px 0;
