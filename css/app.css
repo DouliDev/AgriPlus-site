@@ -417,6 +417,13 @@ h6{
 	padding: 0 0 60px 0;
 }
 
+.img-indent{
+	float: left;
+	margin: 5px 10px 0 0;	
+}
+
+
+
 .heading-1{
 	color: #ffcd60;
 }
@@ -447,6 +454,12 @@ p {
 .wrapper{
 	overflow: hidden;
 	position: relative;
+}
+
+.extra-wrap{
+	overflow: hidden;
+	display: block;
+
 }
 
 
