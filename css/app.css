@@ -453,6 +453,8 @@ p {
 .wrapper{
 	overflow: hidden;
 	position: relative;
+	display: inline-block;
+	width: 33%;
 }
 
 .extra-wrap{
