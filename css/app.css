@@ -344,6 +344,29 @@ a:hover{
 	background: url('../images/link-marker.gif') no-repeat right 7px;
 	padding: 0 11px 0 0;
 }
+.price-list li{
+	overflow: hidden;
+	font-size: 14px;
+	line-height: 18px;
+	padding: 0 0 12px 14px;
+	background: url('../images/list-1-marker.gif') no-repeat 0 5px;
+
+}
+
+.price-item{
+	float: left;
+	color: #717171;
+	text-decoration: none;
+	max-width: 70%;
+	margin: 0 6px 0 0;
+	
+}
+.price-item:hover{
+	color: white;
+
+}
+
+
 strong{
 	color: #b30404;
 
@@ -461,6 +484,8 @@ p {
 .list-1 li:first-child{
 	border: none;
 }
+
+
 
 .wrapper{
 	overflow: hidden;
