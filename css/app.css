@@ -344,7 +344,15 @@ a:hover{
 	background: url('../images/link-marker.gif') no-repeat right 7px;
 	padding: 0 11px 0 0;
 }
+strong{
+	color: #b30404;
 
+}
+.str-2{
+	color: #b09609;
+
+
+}
 .alignright{
 	text-align: right;
 }
