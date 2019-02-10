@@ -365,7 +365,33 @@ a:hover{
 	color: white;
 
 }
+.adress{
+	padding: 0 0 20px 0; 
+}
+.adress dt{
+	display: block;
+	font-weight: normal;
+	color: #717171;
+	font-size: 12px;
+	line-height: 18px;
+	width: 235px;
+}
 
+.adress dd{
+	font-size: 12px;
+	line-height: 18px;
+	color: #717171;
+	overflow: hidden;
+}
+
+.adress span{
+	float: left;
+	width: 59px;
+	color: #717171;
+	text-align: right;
+	margin: 0 6px 0 0;
+
+}
 
 strong{
 	color: #b30404;
