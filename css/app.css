@@ -537,6 +537,38 @@ fieldset{
 
 }
 
+#contact-form input,textarea{
+	width: 490px;
+	font-size: 12px;
+	padding: 5px 5px 6px 5px !important;
+	background: #2f2f2f;
+	outline: none;
+	font-family: arial;
+	display: block;
+	color: #717171;
+	margin: 0;
+	box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1) inset;
+	border: 1px solid #464646;
+	float: left;
+
+}
+#contact-form input{
+	height: 30px;
+}
+#contact-form textarea{
+	height: 115px;
+	overflow: auto;
+	resize: none;
+
+}
+
+.btns{
+	padding: 15px 0 0 0;
+	text-align: center;
+	margin: auto;
+	overflow: hidden;
+}
+
 
 .wrapper{
 	overflow: hidden;
