@@ -511,6 +511,31 @@ p {
 	border: none;
 }
 
+#contact-form{
+	display: block;
+	position: relative;
+	margin: 7px 0 0 0;
+}
+
+fieldset{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#contact-form label{
+	display: block;
+	min-height: 30px;
+	position: relative;
+	overflow: hidden;
+}
+#contact-form span{
+	float: left;
+	width: 69px;
+	text-align: right;
+	margin: 4px 8px 0 0;
+
+}
 
 
 .wrapper{
